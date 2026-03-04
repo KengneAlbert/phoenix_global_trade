@@ -1,11 +1,23 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import MagneticButton from "./ui/MagneticButton";
 
 export default function Hero() {
   const { scrollY } = useScroll();
   const bgY = useTransform(scrollY, [0, 800], ["0px", "180px"]);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const vid = videoRef.current;
+    if (!vid) return;
+    vid.muted = true;
+    vid.play().catch(() => {
+      // Autoplay blocked — poster image already visible, nothing to do
+    });
+  }, []);
+
   return (
     <header className="relative min-h-screen bg-navy-deep overflow-hidden flex flex-col justify-center px-6 lg:px-20 pt-24">
       <motion.div
@@ -15,30 +27,27 @@ export default function Hero() {
         transition={{ duration: 2.5, ease: [0.25, 0.46, 0.45, 0.94] }}
         style={{ y: bgY }}
       >
-        {/* Dark gradient base */}
+        {/* Animated gradient fallback — visible when no video file is present */}
         <div
           className="absolute inset-0"
           style={{
             background:
               "linear-gradient(135deg, #000814 0%, #0a1a31 35%, #0d2545 55%, #1a0a18 75%, #000814 100%)",
+            backgroundSize: "400% 400%",
+            animation: "hero-gradient 10s ease infinite",
           }}
         />
-        {/* YouTube background video */}
-        <div className="absolute inset-0 overflow-hidden">
-          <iframe
-            src="https://www.youtube.com/embed/7rhnGhnfH1M?autoplay=1&mute=1&loop=1&playlist=7rhnGhnfH1M&controls=0&showinfo=0&rel=0&playsinline=1&disablekb=1&modestbranding=1&iv_load_policy=3"
-            allow="autoplay; encrypted-media"
-            className="absolute pointer-events-none grayscale brightness-[0.35] contrast-110"
-            style={{
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              width: "max(100%, 177.78vh)",
-              height: "max(100%, 56.25vw)",
-              border: "none",
-            }}
-          />
-        </div>
+        <video
+          ref={videoRef}
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover grayscale brightness-[0.35] contrast-110"
+        >
+          {/* Place your video at public/videos/Guangzhou.mp4 */}
+          <source src="/videos/Guangzhou.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-b from-navy-deep/60 via-navy-deep/40 to-navy-deep/90" />
       </motion.div>
 
