@@ -40,7 +40,7 @@ export default function Expertise() {
               <h4 className="font-display font-bold text-2xl group-hover:text-white mb-4">
                 Construction & Matériaux
               </h4>
-              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 transition-opacity group-hover:text-white/60">
+              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity group-hover:text-white/60">
                 <li>→ Ciment, fer à béton, acier</li>
                 <li>→ Carrelage & sanitaires</li>
                 <li>→ Portes, fenêtres, vitrage</li>
@@ -56,7 +56,7 @@ export default function Expertise() {
               <h4 className="font-display font-bold text-2xl group-hover:text-white mb-4">
                 Engins Industriels
               </h4>
-              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 transition-opacity group-hover:text-white/60">
+              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity group-hover:text-white/60">
                 <li>→ Chargeuses & pelles mécaniques</li>
                 <li>→ Grues & matériel de levage</li>
                 <li>→ Générateurs & compresseurs</li>
@@ -72,7 +72,7 @@ export default function Expertise() {
               <h4 className="font-display font-bold text-2xl group-hover:text-white mb-4">
                 Automobile
               </h4>
-              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 transition-opacity group-hover:text-white/60">
+              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity group-hover:text-white/60">
                 <li>→ Pièces détachées toutes marques</li>
                 <li>→ Pneumatiques & batteries</li>
                 <li>→ Véhicules utilitaires & flottes</li>
@@ -88,7 +88,7 @@ export default function Expertise() {
               <h4 className="font-display font-bold text-2xl group-hover:text-white mb-4">
                 Agriculture
               </h4>
-              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 transition-opacity group-hover:text-white/60">
+              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity group-hover:text-white/60">
                 <li>→ Engrais & intrants agricoles</li>
                 <li>→ Tracteurs & motoculteurs</li>
                 <li>→ Systèmes d&#39;irrigation</li>
@@ -104,7 +104,7 @@ export default function Expertise() {
               <h4 className="font-display font-bold text-2xl group-hover:text-white mb-4">
                 Équipements Médicaux
               </h4>
-              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 transition-opacity group-hover:text-white/60">
+              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity group-hover:text-white/60">
                 <li>→ Matériel hospitalier</li>
                 <li>→ Consommables médicaux</li>
                 <li>→ Équipements de diagnostic</li>
@@ -120,7 +120,7 @@ export default function Expertise() {
               <h4 className="font-display font-bold text-2xl group-hover:text-white mb-4">
                 Mines & Pétrole
               </h4>
-              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 transition-opacity group-hover:text-white/60">
+              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity group-hover:text-white/60">
                 <li>→ Équipements d&apos;extraction</li>
                 <li>→ Matériel de forage & prospection</li>
                 <li>→ Sécurité minière & EPI</li>
@@ -136,7 +136,7 @@ export default function Expertise() {
               <h4 className="font-display font-bold text-2xl group-hover:text-white mb-4">
                 Maison & Bureau
               </h4>
-              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 transition-opacity group-hover:text-white/60">
+              <ul className="text-gray-400 mt-2 text-xs space-y-1 opacity-0 group-hover:opacity-100 [@media(hover:none)]:opacity-100 transition-opacity group-hover:text-white/60">
                 <li>→ Mobilier & ameublement</li>
                 <li>→ Électroménager</li>
                 <li>→ Fournitures de bureau</li>

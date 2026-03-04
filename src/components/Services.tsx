@@ -33,7 +33,7 @@ export default function Services() {
               <ParallaxImg
                 src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=1000&auto=format&fit=crop"
                 alt="Sourcing"
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-[filter] duration-700"
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 [@media(hover:none)]:grayscale-0 transition-[filter] duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a1a31] via-transparent to-transparent"></div>
               <div className="relative z-10">
@@ -43,12 +43,12 @@ export default function Services() {
                 <h3 className="text-white text-4xl font-display font-bold mb-4 italic">
                   Sourcing & Approvisionnement
                 </h3>
-                <p className="text-white/60 max-w-sm mb-8 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 font-light">
+                <p className="text-white/60 max-w-sm mb-8 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 [@media(hover:none)]:translate-y-0 [@media(hover:none)]:opacity-100 transition-all duration-500 font-light">
                   Nous identifions et sélectionnons les meilleurs fournisseurs
                   selon votre cahier des charges, parmi notre réseau de 200+
                   fabricants qualifiés.
                 </p>
-                <div className="w-12 h-[1px] bg-[#e42c33] group-hover:w-full transition-all duration-700"></div>
+                <div className="w-12 h-[1px] bg-[#e42c33] group-hover:w-full [@media(hover:none)]:w-full transition-all duration-700"></div>
               </div>
             </TiltCard>
           </StaggerItem>
@@ -61,7 +61,7 @@ export default function Services() {
               <ParallaxImg
                 src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000&auto=format&fit=crop"
                 alt="Quality Control"
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-[filter] duration-700"
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 [@media(hover:none)]:grayscale-0 transition-[filter] duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a1a31] via-transparent to-transparent"></div>
               <div className="relative z-10">
@@ -71,12 +71,12 @@ export default function Services() {
                 <h3 className="text-white text-4xl font-display font-bold mb-4 italic">
                   Vérification & Qualité
                 </h3>
-                <p className="text-white/60 max-w-sm mb-8 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 font-light">
+                <p className="text-white/60 max-w-sm mb-8 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 [@media(hover:none)]:translate-y-0 [@media(hover:none)]:opacity-100 transition-all duration-500 font-light">
                   Nous effectuons les contrôles nécessaires pour garantir
                   conformité, qualité et fiabilité des produits avant tout
                   embarquement.
                 </p>
-                <div className="w-12 h-[1px] bg-[#e42c33] group-hover:w-full transition-all duration-700"></div>
+                <div className="w-12 h-[1px] bg-[#e42c33] group-hover:w-full [@media(hover:none)]:w-full transition-all duration-700"></div>
               </div>
             </TiltCard>
           </StaggerItem>
@@ -89,7 +89,7 @@ export default function Services() {
               <ParallaxImg
                 src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=1000&auto=format&fit=crop"
                 alt="Negotiation"
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-[filter] duration-700"
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 [@media(hover:none)]:grayscale-0 transition-[filter] duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a1a31] via-transparent to-transparent"></div>
               <div className="relative z-10">
@@ -99,12 +99,12 @@ export default function Services() {
                 <h3 className="text-white text-4xl font-display font-bold mb-4 italic">
                   Négociation & Coûts
                 </h3>
-                <p className="text-white/60 max-w-sm mb-8 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 font-light">
+                <p className="text-white/60 max-w-sm mb-8 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 [@media(hover:none)]:translate-y-0 [@media(hover:none)]:opacity-100 transition-all duration-500 font-light">
                   Nous négocions directement avec les fabricants pour obtenir
                   les meilleures conditions tarifaires et optimiser vos coûts
                   d&apos;achat.
                 </p>
-                <div className="w-12 h-[1px] bg-[#e42c33] group-hover:w-full transition-all duration-700"></div>
+                <div className="w-12 h-[1px] bg-[#e42c33] group-hover:w-full [@media(hover:none)]:w-full transition-all duration-700"></div>
               </div>
             </TiltCard>
           </StaggerItem>
@@ -117,7 +117,7 @@ export default function Services() {
               <ParallaxImg
                 src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?q=80&w=1000&auto=format&fit=crop"
                 alt="Logistics"
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-[filter] duration-700"
+                className="w-full h-full object-cover grayscale group-hover:grayscale-0 [@media(hover:none)]:grayscale-0 transition-[filter] duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a1a31] via-transparent to-transparent"></div>
               <div className="relative z-10">
@@ -127,12 +127,12 @@ export default function Services() {
                 <h3 className="text-white text-4xl font-display font-bold mb-4 italic">
                   Suivi Logistique
                 </h3>
-                <p className="text-white/60 max-w-sm mb-8 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 font-light">
+                <p className="text-white/60 max-w-sm mb-8 transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 [@media(hover:none)]:translate-y-0 [@media(hover:none)]:opacity-100 transition-all duration-500 font-light">
                   Nous assurons le suivi de la production jusqu&apos;à la
                   livraison finale vers votre destination, du conteneur en Chine
                   au dédouanement.
                 </p>
-                <div className="w-12 h-[1px] bg-[#e42c33] group-hover:w-full transition-all duration-700"></div>
+                <div className="w-12 h-[1px] bg-[#e42c33] group-hover:w-full [@media(hover:none)]:w-full transition-all duration-700"></div>
               </div>
             </TiltCard>
           </StaggerItem>
