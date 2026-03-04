@@ -1,0 +1,17 @@
+{
+  "name": "Phœnix Global Trade",
+  "short_name": "Phœnix",
+  "description": "L'ingénierie du sourcing entre la Chine et l'Afrique de l'Ouest.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1a31",
+  "theme_color": "#e42c33",
+  "icons": [
+    {
+      "src": "/logo.jpeg",
+      "sizes": "any",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
