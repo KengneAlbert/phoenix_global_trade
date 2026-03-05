@@ -4,6 +4,7 @@ import MotionProvider from "@/src/components/MotionProvider";
 import CustomCursor from "@/src/components/CustomCursor";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.phoenixglobaltrade.com"),
   title: "Phœnix | Global Sourcing Excellence",
   description:
     "L'ingénierie du sourcing de demain. Une passerelle stratégique entre l'excellence industrielle asiatique et les ambitions ouest-africaines.",
