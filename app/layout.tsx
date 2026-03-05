@@ -31,12 +31,21 @@ export const metadata: Metadata = {
       "L'ingénierie du sourcing de demain. Une passerelle stratégique entre l'excellence industrielle asiatique et les ambitions ouest-africaines.",
     siteName: "Phœnix Global Trade",
     locale: "fr_FR",
+    images: [
+      {
+        url: "https://www.phoenixglobaltrade.com/logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Phœnix Global Trade — Sourcing Chine-Afrique",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Phœnix | Global Sourcing Excellence",
     description:
       "Une passerelle stratégique entre l'excellence industrielle asiatique et les ambitions ouest-africaines.",
+    images: ["https://www.phoenixglobaltrade.com/logo.jpeg"],
   },
 };
 
